@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#msg{
+    font-size: 1.4em;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main{
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+#att {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pickdisp {
+    text-transform: capitalize;
+}
+
+.cube {
+    padding-bottom: 20%;
+    width: 20%;
+    background-color: purple;
+    margin: 3%;
+    float: left;
+}
+
+#control {
+    background-color: bisque;
+    /*padding: 10px;*/
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    height: 100%;
+    line-height: 2em;
+}
+
+button:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+#control>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#control>div>#mode>button {
+    margin: 0px 20px;
+}
+
+.win {
+    color: white;
+}
+
+.selected {
+    background-color: skyblue;
+}
